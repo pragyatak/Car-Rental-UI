@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+
+
+<div class="container">
+  <head>
+    <title>RENT A CAR</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+
+
+    .form-control{
+      width:70%;
+    }
+
+    .body{
+      background-color:#f7f7f7;
+    }
+
+    .navi{
+      margin: 0px;
+      padding: 0px;
+      background-color:#e2e2e2;
+    }
+
+     .sidebar{
+       background-color: #d5ebed;
+       float:right;
+       margin: 0px;
+     }
+
+     .contentgrid{
+       margin-left: 0px;
+       margin-right: 0px;
+       padding: 0px;
+       float:left;
+     }
+
+    .cotentgridodd{
+      background-color: #ffffff;
+      text-align: center;
+    }
+    .contentgrideven{
+      background-color: #e2e2e2;
+      text-align: center;
+    }
+    .contentgridcol1{
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .ul{
+      margin-top: 10px;
+      list-style-type: none;
+      text-align: center;
+      flex-wrap: nowrap;
+    }
+
+    .ulfooter{
+      margin-top: 10px;
+      padding: 10px;
+      list-style-type: none;
+      color: #218fef;
+    }
+
+    .p{
+      font-size: 13px;
+      text-align: center;
+    }
+    .ulsidebar{
+      padding: 0px;
+      margin-left:0px;
+      list-style-type: none;
+      float: left;
+    }
+
+    .sidebarimage{
+      padding: 0px;
+      margin-left:0px;
+      float: left;
+    }
+
+    .footer{
+      text-align: left;
+      background-color: #d5ebed;
+
+    }
+
+    </style>
+</head>
+<div class="row">
+    <div class="col-lg-6 col-xs-12 col-sm-12">
+        <a class="text-muted" href="index.html">
+        <img src="images/adv_logo_hd.gif" alt="logo"/>
+        <br></a>
+        <a>RENT A CAR
+        </a>
+    </div>
+
+<body class="body">
+  <div class="dropdown col-lg-3 text-center">
+    <button class="btn dropdown-toggle text-center" style="border-color:#8e8d8d" type="button" data-toggle="dropdown">United States
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Argentina</a></li>
+      <li><a href="#">Brazil</a></li>
+      <li><a href="#">Canada</a></li>
+      <li><a href="#">Czech Republic</a></li>
+      <li><a href="#">Finland</a></li>
+      <li><a href="#">France</a></li>
+      <li><a href="#">Germany</a></li>
+      <li><a href="#">Hungary</a></li>
+      <li><a href="#">India</a></li>
+      <li><a href="#">Italy</a></li>
+      <li><a href="#">United States</a></li>
+      <li><a href="#">United Kingdom</a></li>
+    </ul>
+
+  <button class="btn btn dropdown-toggle" style="border-color:#8e8d8d" type="button" data-toggle="dropdown">English
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">English</a></li>
+    <li><a href="#">Spanish</a></li>
+    <li><a href="#">French</a></li>
+    <li><a href="#">Hindi</a></li>
+    <li><a href="#">Urdu</a></li>
+    <li><a href="#">Chinese</a></li>
+  </ul>
+  </div>
+
+<!--
+  <div class="col-lg-3 col-xs-12 text-center">
+    <input type="text" class="text-center form-control col-sm-1" width="50%" type="search" placeholder="Search" name="Search">
+    <img class="text-center" src="images/search.jpg" atl="search"> </input>
+</div>
+-->
+
+<div class="search-container text-center">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <img class="text-center" src="images/search.jpg" atl="search">
+    </form>
+  </div>
+</div>
+
+<br>
+<div class="row navi">
+<div class="col-lg-12 col-sm-12 col-xs-12">
+  <ul class="nav nav-pills nav-justified">
+    <li class="active"><a href="#">RATES & RESERVATIONS</a></li>
+    <li><a href="#">A-PASS ONLINE CHECK-IN</a></li>
+    <li><a href="#">FIND A LOCATION</a></li>
+    <li><a href="#">DEALS & OFFERS</a></li>
+    <li><a href="#">CONTACT US</a></li>
+  </ul>
+</div>
+</div>
+<br>
+<div class="row">
+  <div class="col-lg-12 col-xs-12 col-sm-1">
+    <ul class="nav nav-pills nav-justified">
+      <li><a style="background-color:#d5ebed" href="#">STEP 1</a></li>
+      <li class="active"><a href="#">2. SELECT VEHICLES & EXTRAS</a></li>
+      <li><a href="#">STEP 3</a></li>
+      <li><a href="#">STEP 4</a></li>
+    </ul>
+  </div>
+</div>
+<br>
+
+<div class="container">
+    <div class="col-lg-9 col-xs-12 contentgrid">
+      <!-- First Grid -->
+        <div class="row contentgridodd text-center">
+        <div class="col-lg-2 col-sm-2 col-xs-12">
+          <ul class="ul align-items-center">
+            <li class="contentgridcol1">10.99</li>
+            <li>USD/DAY</li>
+            <li><img src="images/select_gr_btn.gif" alt="select"></li>
+            <li>Total 76.93 USD</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-sm-4">
+          <ul class="ul">
+          <li><img src="images/car1.gif" alt="car1"></li>
+          <li>Extra Small Car</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-sm-4 text-left">
+        <ul class="ul p">
+        <li><img src="images/icon_man.gif" alt="man">&nbspx4 Passengers</li>
+        <li><img src="images/icon_sm_scase.gif" alt="sm suitcase">&nbspx 2 Small Suitcases</li>
+        <li><img src="images/icon_lg_scase.gif" alt="lg suitcase">&nbspx 0 Large Suitcases</li>
+      </ul>
+      </div>
+
+      <div class="col-lg-3 col-sm-2 text-left">
+        <ul class="ul p">
+        <li>Automatic Transmission</li>
+        <li>Air Conditioning</li>
+        <li>24 miles/gallon</li>
+      </ul>
+      </div>
+      </div>
+<!--Second Grid -->
+      <div class="row contentgrideven text-center ulrow">
+      <div class="col-lg-2 col-sm-2">
+        <ul class="ul align-items-center">
+          <li class="contentgridcol1">13.91</li>
+          <li>USD/DAY</li>
+          <li><img src="images/select_gr_btn.gif" alt="select"></li>
+          <li>Total 93.37 USD</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-sm-4">
+        <ul class="ul">
+        <li><img src="images/car2.gif" alt="car2"></li>
+        <li>Small Car</li>
+      </ul>
+    </div>
+
+    <div class="col-lg-3 col-sm-4 text-left">
+      <ul class="ul p">
+      <li><img src="images/icon_man.gif" alt="man">&nbspx4 Passengers</li>
+      <li><img src="images/icon_sm_scase.gif" alt="sm suitcase">&nbspx 1 Small Suitcases</li>
+      <li><img src="images/icon_lg_scase.gif" alt="lg suitcase">&nbspx 2 Large Suitcases</li>
+    </ul>
+    </div>
+
+    <div class="col-lg-3 col-sm-2 text-left">
+      <ul class="ul p">
+      <li>Automatic Transmission</li>
+      <li>Air Conditioning</li>
+      <li>24 miles/gallon</li>
+    </ul>
+    </div>
+    </div>
+<!-- Third Grid -->
+    <div class="row contentgridodd text-center">
+    <div class="col-lg-2 col-sm-2">
+      <ul class="ul align-items-center">
+        <li class="contentgridcol1">14.75</li>
+        <li>USD/DAY</li>
+        <li><img src="images/select_gr_btn.gif" alt="select"></li>
+        <li>Total 103.25 USD</li>
+      </ul>
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <ul class="ul">
+      <li><img src="images/car3.gif" alt="car3"></li>
+      <li>Medium Car</li>
+    </ul>
+  </div>
+
+  <div class="col-lg-3 col-sm-4 text-left">
+    <ul class="ul p">
+    <li><img src="images/icon_man.gif" alt="man">&nbspx4 Passengers</li>
+    <li><img src="images/icon_sm_scase.gif" alt="sm suitcase">&nbspx 2 Small Suitcases</li>
+    <li><img src="images/icon_lg_scase.gif" alt="lg suitcase">&nbspx 2 Large Suitcases</li>
+  </ul>
+  </div>
+
+  <div class="col-lg-3 col-sm-2 text-left">
+    <ul class="ul p">
+    <li>Automatic Transmission</li>
+    <li>Air Conditioning</li>
+    <li>Dual Airbags</li>
+    <li>ABS</li>
+    <li>24 miles/gallon</li>
+  </ul>
+  </div>
+  </div>
+<!-- Fourth Grid -->
+  <div class="row contentgrideven text-center">
+  <div class="col-lg-2 col-sm-2">
+    <ul class="ul align-items-center">
+      <li class="contentgridcol1">17.07</li>
+      <li>USD/DAY</li>
+      <li><img src="images/select_gr_btn.gif" alt="select"></li>
+      <li>Total 119.49 USD</li>
+    </ul>
+  </div>
+
+  <div class="col-lg-4 col-sm-4">
+    <ul class="ul">
+    <li><img src="images/car4.gif" alt="car4"></li>
+    <li>Large Car</li>
+  </ul>
+</div>
+
+<div class="col-lg-3 col-sm-4 text-left">
+  <ul class="ul p">
+  <li><img src="images/icon_man.gif" alt="man">&nbspx4 Passengers</li>
+  <li><img src="images/icon_sm_scase.gif" alt="sm suitcase">&nbspx 2 Small Suitcases</li>
+  <li><img src="images/icon_lg_scase.gif" alt="lg suitcase">&nbspx 1 Large Suitcases</li>
+</ul>
+</div>
+
+<div class="col-lg-3 col-sm-2 text-left">
+  <ul class="ul p">
+  <li>Automatic Transmission</li>
+  <li>Air Conditioning</li>
+  <li>Dual Airbags</li>
+  <li>ABS</li>
+  <li>24 miles/gallon</li>
+</ul>
+</div>
+</div>
+<!-- Fifth Grid-->
+<div class="row contentgridadd text-center">
+<div class="col-lg-2 col-sm-2">
+  <ul class="ul align-items-center">
+    <li class="contentgridcol1">22.87</li>
+    <li>USD/DAY</li>
+    <li><img src="images/select_gr_btn.gif" alt="select"></li>
+    <li>Total 160.09 USD</li>
+  </ul>
+</div>
+
+<div class="col-lg-4 col-sm-4">
+  <ul class="ul">
+  <li><img src="images/car5.gif" alt="car5"></li>
+  <li>Small SUV</li>
+</ul>
+</div>
+
+<div class="col-lg-3 col-sm-4 text-left">
+<ul class="ul p">
+<li><img src="images/icon_man.gif" alt="man">&nbspx4 Passengers</li>
+<li><img src="images/icon_sm_scase.gif" alt="sm suitcase">&nbspx 2 Small Suitcases</li>
+<li><img src="images/icon_lg_scase.gif" alt="lg suitcase">&nbspx 2 Large Suitcases</li>
+</ul>
+</div>
+
+<div class="col-lg-3 col-sm-2 text-left">
+<ul class="ul p">
+<li>Automatic Transmission</li>
+<li>Air Conditioning</li>
+<li>Dual Airbags</li>
+<li>ABS</li>
+<li>18 miles/gallon</li>
+</ul>
+</div>
+</div>
+<!-- Sixth Grid -->
+<div class="row contentgrideven text-center">
+<div class="col-lg-2 col-sm-2">
+  <ul class="ul align-items-center">
+    <li class="contentgridcol1">25.04</li>
+    <li>USD/DAY</li>
+    <li><img src="images/select_gr_btn.gif" alt="select"></li>
+    <li>Total 175.28 USD</li>
+  </ul>
+</div>
+
+<div class="col-lg-4 col-sm-4">
+  <ul class="ul">
+  <li><img src="images/car6.gif" alt="car6"></li>
+  <li>Medium SUV</li>
+</ul>
+</div>
+
+<div class="col-lg-3 col-sm-4 text-left">
+<ul class="ul p">
+<li><img src="images/icon_man.gif" alt="man">&nbspx4 Passengers</li>
+<li><img src="images/icon_sm_scase.gif" alt="sm suitcase">&nbspx 2 Small Suitcases</li>
+<li><img src="images/icon_lg_scase.gif" alt="lg suitcase">&nbspx 0 Large Suitcases</li>
+</ul>
+</div>
+
+<div class="col-lg-3 col-sm-2 text-left">
+<ul class="ul p">
+<li>Automatic Transmission</li>
+<li>Air Conditioning</li>
+<li>Dual Airbags</li>
+<li>ABS</li>
+<li>18 miles/gallon</li>
+</ul>
+</div>
+</div>
+
+<!-- Seventh Grid -->
+<div class="row contentgridodd text-center">
+<div class="col-lg-2 col-sm-2">
+  <ul class="ul align-items-center">
+    <li class="contentgridcol1">26.04</li>
+    <li>USD/DAY</li>
+    <li><img src="images/select_gr_btn.gif" alt="select"></li>
+    <li>Total 182.28 USD</li>
+  </ul>
+</div>
+
+<div class="col-lg-4 col-sm-4">
+  <ul class="ul">
+  <li><img src="images/car7.gif" alt="car7"></li>
+  <li>Minivan</li>
+</ul>
+</div>
+
+<div class="col-lg-3 col-sm-4 text-left">
+<ul class="ul p">
+<li><img src="images/icon_man.gif" alt="man">&nbspx4 Passengers</li>
+<li><img src="images/icon_sm_scase.gif" alt="sm suitcase">&nbspx 2 Small Suitcases</li>
+<li><img src="images/icon_lg_scase.gif" alt="lg suitcase">&nbspx 0 Large Suitcases</li>
+</ul>
+</div>
+
+<div class="col-lg-3 col-sm-2 text-left">
+<ul class="ul p">
+<li>Automatic Transmission</li>
+<li>Air Conditioning</li>
+<li>Dual Airbags</li>
+<li>ABS</li>
+<li>18 miles/gallon</li>
+</ul>
+</div>
+</div>
+</div>
+
+<!--Side Bar-->
+
+    <div class="row">
+    <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12 sidebar">
+      <br>
+    <b>YOUR ITINERARY</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">Change Itinerary</a>
+    <br>
+    <br>
+    <ul class="ulsidebar text-left">
+      <li><b>Pic Up </b></li>
+      <li>Ft. Lauderdale Airport(FLL) FL, US</li>
+      <li>600 Terminal Drive</li>
+      <li> Dania (Ft. Lauderdale), FL, US 33004</li>
+    </ul>
+      <br>
+
+  <ul class="ulsidebar text-left">
+    <li><b>Return</b></li>
+    <li>Ft. Lauderdale Airport(FLL) FL, US</li>
+    <li>600 Terminal Drive</li>
+    <li> Dania (Ft. Lauderdale), FL, US 33004</li>
+  </ul>
+    <br>
+
+    <ul class="ulsidebar text-left">
+      <li><b>Pick Up Date</b></li>
+      <li>Wed, Feb 16 2011 at 10:00 AM</li>
+    </ul>
+      <br>
+
+    <ul class="ulsidebar text-left">
+      <li><b>Return Date</b></li>
+      <li>Wed, Feb 23 2011 at 10:00 AM</li>
+    </ul>
+      <br>
+    </div>
+    <div class="row">
+    <div class="col-lg-3">  <img class="sidebarimage" src="images/offer.gif" alt="offer" height="250px" width="285px"> </div>
+    </div>
+  </div>
+  </div>
+<br><br>
+
+<!--Footer-->
+<div class="container col-lg-12 col-sm-3 footer">
+  <div class="row">
+    <div class="col-lg-3 col-sm-12 col-xs-12">
+          <h6>STAY CONNECTED</h6>
+          <input type="email" name="email" placeholder="Sign up for emails">
+          <button class="btn btn-primary btn-sm" name="submit">Submit</button></br>
+    <img src="images/facebook.png" alt="share" href="http://www.facebook.com">
+    <img src="images/facebook.png" alt="facebook" href="http://www.facebook.com">
+    <img src="images/twitter.png" alt="twitter" href="http://www.twitter.com">
+    <img src="images/youtube.png" alt="youtube" href="http://www.youtube.com"> <br>
+    <br>
+    <img src="images/phoneIcon.png" alt="phone"> &nbsp<a href="#">Adavantage Rent A Car Mobile</a>
+    </div>
+
+
+    <div class="col-lg-3">
+    <ul class="ulfooter">
+      <li><b>Rates & Reservations</b></li>
+      <li>Get a Quote</li>
+      <li>Modify/Cancel</li>
+      <li>Review</li><br>
+      <li><b>A-PASS Online Check-In</b></li><br>
+      <li><b>Find a Location</b></li>
+    </ul>
+    </div>
+
+    <div class="col-lg-3">
+    <ul class="ulfooter">
+      <li><b>Deals & Offers</b></li> <br>
+      <li><b>Contact Us</b></li>
+      <li><b>Customer Support</b></li>
+      <li>FAQs</li>
+      <li>Request a Receipt</li>
+      <li>Rental Qualifications/Requirements</li>
+    </ul>
+    </div>
+
+    <div class="col-lg-3">
+    <ul class="ulfooter">
+      <li>Careers</li>
+      <li>Privacy Policy</li>
+      <li>Travel Agent Login</li>
+      <li>Site Map</li>
+      <li>Business Travel</li>
+      <li>Accident Report</li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+
+  </div>
+</div>
+
+
+</div>
+
+</div>
+</body>
+</html>
